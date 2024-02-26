@@ -1,0 +1,8 @@
+nltk
+pandas
+scikit-learn
+fake-useragent
+tqdm
+beautifulsoup4
+seaborn
+statsmodels

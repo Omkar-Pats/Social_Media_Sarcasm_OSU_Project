@@ -1,0 +1,28 @@
+2023-03-18 11:34:30,837 - 
+    Error in Extraction and Cleaning
+    ---
+    
+    ---
+    'NoneType' object has no attribute 'content'
+Traceback (most recent call last):
+  File "C:\Users\frank\Documents\MSIS-5223\Project\project-deliverable-1-cia\code\rough_code\mp_imports.py", line 48, in extract_and_clean_info_from_html_mp
+    html_result = BeautifulSoup(rq_result.content, "html.parser")
+AttributeError: 'NoneType' object has no attribute 'content'
+
+============================================================
+
+
+2023-03-20 17:35:28,099 - 
+    Error in Extraction and Cleaning
+    ---
+    
+    ---
+    'NoneType' object has no attribute 'content'
+Traceback (most recent call last):
+  File "C:\Users\frank\Documents\MSIS-5223\Project\project-deliverable-1-cia\code\scrape_user_info\scrape_clean_user_info.py", line 119, in extract_and_clean_info_from_html_mp
+    html_result = BeautifulSoup(rq_result.content, "html.parser")
+AttributeError: 'NoneType' object has no attribute 'content'
+
+============================================================
+
+
